@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: extensions/v1alpha5
 kind: Ingress
 metadata:
   name: {{ template "central-ingress.name" . }}-internal
